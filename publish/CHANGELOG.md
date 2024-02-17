@@ -1,3 +1,6 @@
+- v1.3
+  - Fixes players being able to always attack tamed creatures.
+
 - v1.2
   - Fixes aggravated Dverger not being hostile.
 

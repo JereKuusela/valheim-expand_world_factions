@@ -94,7 +94,7 @@ public class FactionManager
     {
       var faction = NameToFaction[item.faction.ToLowerInvariant()];
       Data[faction] = new(item, GetFaction, GetFactions);
-      if (Data[faction].AggravatedFriendly != Data[faction].Friendly)
+      if (Data[faction].AggravatedFriendly != null)
         Aggravatable.Add(faction);
     }
     foreach (var baseAi in BaseAI.Instances) BaseAIAwake.Setup(baseAi);
