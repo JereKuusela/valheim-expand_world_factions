@@ -97,7 +97,7 @@ public class FactionManager
       if (Data[faction].AggravatedFriendly != null)
         Aggravatable.Add(faction);
     }
-    foreach (var baseAi in BaseAI.Instances) BaseAIAwake.Setup(baseAi);
+    foreach (BaseAI baseAi in BaseAI.Instances) BaseAIAwake.Setup(baseAi);
   }
 
   private static void Load(List<FactionYaml> data)
