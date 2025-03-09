@@ -1,3 +1,7 @@
+- v1.5
+  - Adds dependency to YamlDotNet.
+  - Fixed for the new game version.
+
 - v1.4
   - Fixed for the new game version.
 
@@ -9,6 +13,3 @@
 
 - v1.1
   - Fixes crash if aggravatable creature was tamed.
-
-- v1.0
-  - Initial release.
