@@ -6,12 +6,13 @@ using HarmonyLib;
 using ServerSync;
 
 namespace ExpandWorldData.Factions;
+
 [BepInPlugin(GUID, NAME, VERSION)]
 public class EWF : BaseUnityPlugin
 {
   public const string GUID = "expand_world_factions";
   public const string NAME = "Expand World Factions";
-  public const string VERSION = "1.5";
+  public const string VERSION = "1.6";
 #nullable disable
   private static ManualLogSource Log;
   public static EWF Instance;
